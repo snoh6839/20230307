@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+h1 {background-color: blueviolet;}
+
+div {
+    background-color: black;
+    height: 500px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+span {
+    background-color: aqua;
+    padding: 20px;
+    border: 3px solid red;
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+    color: antiquewhite;
+}
+
+span:nth-child(2) {
+    box-sizing: content-box;
+}
