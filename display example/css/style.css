@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+ul,
+li {
+    list-style: none;
+}
+
+ul {
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+a {
+    display: block;
+    color: #000;
+    background-color: #ccc;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+a:hover {
+    background-color: #000;
+    color: #ccc;
+}
