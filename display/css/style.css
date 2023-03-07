@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+div {
+    background: rgba(202, 255, 210, 0.867);
+    background-clip: content-box;
+    border: 1px solid blanchedalmond;
+    width: 130px;
+    height: 100px;
+    margin: 10px;
+    padding: 10px;
+}
+span {
+    background-color: blanchedalmond;
+    background-clip: content-box;
+    border: 1px solid rgba(202, 255, 210, 0.867);
+    width: 130px;
+    height: 100px;
+    margin: 20px;
+    padding: 2px;
+}
+
+.diNone {display: none;}
+.diIn {display: inline;}
+.diInBl {display: inline-block;}
+.diBl {display: block;}
